@@ -1,5 +1,5 @@
 # Security-in-software-design-and-dev
-A guide for software security design in software development, under the secure development life cycle (SDLC)
+A software project plan, under the secure development life cycle (SDLC)
 
 This project is designed to guide the developer through software security design under the secure development life cycle. It is a hands-on research and development exercise focused on security-oriented design and development. The process will follow through several stages of security-oriented development, scoped with primary reference to the microsoft security engineering practices and the secure development life cycle as follows:
 1. Project Description and Documentation Plan 
