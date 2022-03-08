@@ -3,15 +3,16 @@ A software project plan, under the secure development life cycle (SDLC)
 
 This project is designed to guide the developer through software security design under the secure development life cycle. It is a hands-on research and development exercise focused on security-oriented design and development. The process will follow through several stages of security-oriented development, scoped with primary reference to the microsoft security engineering practices and the secure development life cycle as follows:
 1. Project Description and Documentation Plan 
-2. Application Requirements and Design 
-3. Threat Modelling and Tracking
-4. Development Plan
-5. Implementation
-6. Testing
-7. Periodic Verification Review
-8. Security Evaluation
-9. Release Planning and Documentation
-10.Release
+2. Application Requirements
+3. Design 
+4. Threat Modelling and Tracking
+5. Development Plan
+6. Implementation
+7. Testing
+8. Periodic Verification Review
+9. Security Evaluation
+10. Release Planning and Documentation
+11. Software Release
 
 Each step of the project cycle has two key components:
 - **The Development**: writing the software
@@ -95,6 +96,13 @@ If you get through the steps below, you will have an application, its documentat
 </details>
 
 <details><summary>10. Release Planning and Documentation</summary>
+<p>
+           
+...
+
+</p>
+</details>
+<details><summary>11. Software Release</summary>
 <p>
            
 ...
