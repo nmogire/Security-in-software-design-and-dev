@@ -2,7 +2,7 @@
 A guide for software security design in software development, under the secure development life cycle (SDLC)
 
 This project is designed to guide the developer through software security design under the secure development life cycle. It is a hands-on research and development exercise focused on security-oriented design and development. The process will follow through several stages of security-oriented development, scoped with primary reference to the microsoft security engineering practices and the secure development life cycle as follows:
-1. Project Description and Documentation Plan
+1. Project Description and Documentation Plan 
 2. Application Requirements and Design 
 3. Threat Modelling and Tracking
 4. Development Plan
@@ -14,13 +14,13 @@ This project is designed to guide the developer through software security design
 10.Release
 
 Each step of the project cycle has two key components:
-- **The Development**: creating the software
-- **The Documentation**: notes on the development considerations, tools and processes and a wiki
-At the end, there will be a single open source software project hosted on github, together with its documentation and a wiki.
+- **The Development**: writing the software
+- **The Documentation**: writing notes on the development considerations, tools and processes, and creating a wiki 
 
-References: 
-- Microsoft SDL (https://www.microsoft.com/en-us/securityengineering/sdl/practices)
-- OWASP top ten proactive controls (https://owasp.org/www-project-proactive-controls/) 
+If you get through the steps below, you will have an application, its documentation and a wiki.
+</br>
+✨✨✨</br>
+
 
 <details><summary>1. Project Description and Documentation Plan</summary>
 <p>
@@ -99,5 +99,13 @@ References:
            
 ...
 
+</p>
+</details>
+<details><summary>References </summary>
+<p>
+           
+- Microsoft SDL (https://www.microsoft.com/en-us/securityengineering/sdl/practices)
+- OWASP top ten proactive controls (https://owasp.org/www-project-proactive-controls/) 
+           
 </p>
 </details>
