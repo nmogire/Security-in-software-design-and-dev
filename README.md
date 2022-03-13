@@ -61,7 +61,6 @@ This section is concerned  with defining the functional and design requirements 
            
 This section is concerned  with establishing the application prototype design. Add to the documentation an 'application design' section and document as you go through each of these:
                       
-- Microsoft SDL (https://www.microsoft.com/en-us/securityengineering/sdl/practices)
 - Outline the design features to implement in order to meet the functional, design, security and privacy requirements defined earlier
 - Create a low fidelity paper prototype of the application as in this example, https://www.youtube.com/watch?v=JMjozqJS44M 
 User test the paper prototype and record the findings in the developer documentation according to:</br>
@@ -82,20 +81,20 @@ This section covers threat modelling of the application, which includes scoping,
 - Security and Privacy Requirements:</br>
            - Define the security requirements for your program</br>
            - Define the privacy requirements for your program</br>
-- Attack Surface Analysis and Quality Gates(or Bug Bars):</br>
-           - Determine privilege levels for the application and perform an attack surface analysis</br>
-           - Define levels of security for your program E.g. security</br>
-           - Define levels of privacy for your program. E.g. privacy</br>
+- Attack Surface Analysis and Quality Gates(or Bug Bars[https://docs.microsoft.com/en-us/security/sdl/security-bug-bar-sample]):</br>
+           - Determine privilege levels for the application and perform an attack surface analysis[https://msdn.microsoft.com/en-us/library/ms972812.aspx]</br>
+           - Define levels of security for your program E.g. security[http://msdn.microsoft.com/en-us/library/cc307404.aspx]</br>
+           - Define levels of privacy for your program. E.g. privacy[https://msdn.microsoft.com/en-us/library/cc307403.aspx]</br>
 - Threat Modeling: </br>
            - Determine which parts of the program need threat modeling and security reviews</br>
-           - Create a graphic representation of all the information in the program and how it is connected e.g. using  a data flow diagram (DFD.</br>
+           - Create a graphic representation of all the information in the program and how it is connected e.g. using  a data flow diagram (DFD)[http://www.agilemodeling.com/artifacts/dataFlowDiagram.htm].</br>
            - Compile a list of potential vulnerabilities based on a similar program, that could apply to this one</br>
            - Add privilege boundaries to the information diagram based on the quality gates and then categorize the possible threats</br>
-           - Examples on threat modelling: SDL threat modeling tool, here </br>
+           - Examples on threat modelling: SDL threat modeling tool, here[http://www.microsoft.com/en-us/download/details.aspx?id=42518], [http://www.agilemodeling.com/artifacts/securityThreatModel.htm] </br>
 - Risk Assessment Plan for Security and Privacy:</br>
            - Determine criteria for assessing and reviewing security of the application</br>
            - Determine criteria for assessing and reviewing security of the application</br>
-           - Example: template example
+           - Example: template example[https://msdn.microsoft.com/en-us/library/cc307393.aspx]
 - Security Tracking:</br>
            - Define a plan for keeping track of security flaws that may arise throughout the development process e.g. using the github issues feature
 </p>
@@ -106,7 +105,7 @@ This section covers threat modelling of the application, which includes scoping,
            
 This section is concerned with defining the project course more specifically with focus on the tools to be used and the specific components to be developed. Add to the documentation a 'Development Plan' section to record each of these:
 - Project tools: </br>
-           - Compile a comprehensive list of approved tools for the project. (example). Include tool versions to account for differences between versions e.g. of the same compiler/IDE/etc.</br>
+           - Compile a comprehensive list of approved tools for the project. Example [https://msdn.microsoft.com/library/cc307395.aspx]. Include tool versions to account for differences between versions e.g. of the same compiler/IDE/etc.</br>
 - Deprecated/Unsafe Functions in Project Tools and their alternatives:</br>
            - Identify and list any relevant unsafe or deprecated functions specific to the approved tools. Specify a list of approved alternatives for the project as relevant.</br>
 - README Design:</br>
@@ -139,7 +138,7 @@ This section is concerned  with defining and carrying out various tests to keep 
 - Static Analysis:</br>
            - Choose a static analysis tool to use during the development process. Document the tool and use it each time you recompile the code. </br>
            - Document the analysis outcomes after every few tests.</br>
-           - Example: Checkstyle for Java,</br>
+           - Example: Checkstyle for Java [http://eclipse-cs.sourceforge.net/#!/]</br>
 - Dynamic Analysis:</br>
            - Choose a dynamic analysis tool and document the choice.</br>
            - Document the analysis outcomes after every few tests.</br>
@@ -166,7 +165,7 @@ This section is concerned  with conducting a final security review at the end of
            
 - Use the established threat model benchmarks together with the static analysis, dynamic analysis and fuzz testing to conduct a final review on the code and document the outcomes.</br>       
 - Also run the program as an end user and user test the different features of the program</br>
-- Grade the program security with a documentation of reasons. Potential security outcomes may include but are not limited to the following examples from the MSDLC FSR Process: Passed FSR, Passed FSR with exceptions, or FSR with escalation. </br>
+- Grade the program security with a documentation of reasons. Potential security outcomes may include but are not limited to the following examples from the MSDLC FSR Process[https://docs.microsoft.com/en-us/previous-versions/windows/desktop/cc307420(v=msdn.10)?redirectedfrom=MSDN#EB]: Passed FSR, Passed FSR with exceptions, or FSR with escalation. </br>
 </p>
 </details>
 
@@ -174,10 +173,10 @@ This section is concerned  with conducting a final security review at the end of
 <p>
 This section is concerned  with establishing a response protocol for security and privacy issues that may arise once the application is released, and ensuring documentation is complete and ready for release and archiving as needed. Add to the documentation a 'Release Planning' section to record the incident response plan:</br>
            
-- Incident Response Plan. Example guides. Specify:</br>
+- Incident Response Plan. Example guides[https://www.microsoft.com/en-us/securityengineering/sdl/practices#practice12]. Specify:</br>
            - A Privacy Escalation Team which may include roles such as: Escalation manager, Legal representative, public relations representative and the security engineer. </br>
            - Contact details that users can reach the team at in case need arises. </br>
-           - A standard procedure for incident response. Example.</br>
+           - A standard procedure for incident response. Example[https://msdn.microsoft.com/library/cc307401.aspx]</br>
            
 - Review the documentation so far created and revise for release and archiving</br>
 
@@ -187,13 +186,13 @@ This section is concerned  with establishing a response protocol for security an
 <p>         
 This section is concerned  with organizing final documentation, licensing and creating a user guide before application release. Add to the documentation a 'Release' section to record the following:</br>
            
-- Compile and package a release version of the program.        
+- Compile and package a release version of the program [https://help.github.com/articles/creating-releases/].        
 - Create a documentation archive that includes:</br>
            - A summary of features, version number, future development plans</br>
            - A final README with technical notes on the program e.g. specifications for usage environment, how to install/uninstall the program and links to download pages.</br>
            - Include closing thoughts on the outcome of the program including developer notes on challenges, surprises, Important achievements disclaimers/caveats etc</br>
            - A release license or copyright to the work</br>
-- Create a Wiki Page for the project. GitHub wiki pages are suggested. Include in the wiki a brief user guide and notes on accessibility of the application. Sections may include:</br>
+- Create a Wiki Page for the project. GitHub wiki pages are suggested [https://help.github.com/articles/adding-wiki-pages-via-the-online-interface/]. Include in the wiki a brief user guide and notes on accessibility of the application. Sections may include:</br>
            - Step-by-step guide of how to use the program (easy to follow and illustrated with annotated screenshots)</br>
            - Security and privacy notes, terms of use, caveats and disclaimers related to usage of the software</br>
            - Contact information where the security team can be reached e.g. incase bugs are discovered by users.</br>
