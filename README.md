@@ -165,7 +165,7 @@ This section is concerned  with conducting a final security review at the end of
            
 - Use the established threat model benchmarks together with the static analysis, dynamic analysis and fuzz testing to conduct a final review on the code and document the outcomes.</br>       
 - Also run the program as an end user and user test the different features of the program</br>
-- Grade the program security with a documentation of reasons. Potential security outcomes may include but are not limited to the following examples from the MSDLC FSR Process[https://docs.microsoft.com/en-us/previous-versions/windows/desktop/cc307420(v=msdn.10)?redirectedfrom=MSDN#EB]: Passed FSR, Passed FSR with exceptions, or FSR with escalation. </br>
+- Grade the program security with a documentation of reasons. Potential security outcomes may include but are not limited to the following examples from the MSDLC FSR Process [https://docs.microsoft.com/en-us/previous-versions/windows/desktop/cc307420(v=msdn.10)?redirectedfrom=MSDN#final-security-review-and-privacy-review]: Passed FSR, Passed FSR with exceptions, or FSR with escalation. </br>
 </p>
 </details>
 
