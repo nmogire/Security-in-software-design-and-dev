@@ -119,8 +119,7 @@ This section is concerned with defining the project course more specifically wit
 This section is concerned with the application coding and code documentation. Add to the documentation an 'Implementation' section with these items:
                    
 - README:</br>
-           - List out the components planned for implementation</br>
-           - Under each component:</br>
+           - In the README document created under step 5, under each component:</br>
                      -- Record what tasks are complete after each work period</br>
                      -- Note what is pending at each working period</br>
                      -- Note what each project participant will be handling next</br>
@@ -189,7 +188,7 @@ This section is concerned  with organizing final documentation, licensing and cr
 - Compile and package a release version of the program [https://help.github.com/articles/creating-releases/].        
 - Create a documentation archive that includes:</br>
            - A summary of features, version number, future development plans</br>
-           - A final README with technical notes on the program e.g. specifications for usage environment, how to install/uninstall the program and links to download pages.</br>
+           - A final README version with technical notes on the program e.g. specifications for usage environment, how to install/uninstall the program and links to download pages.</br>
            - Include closing thoughts on the outcome of the program including developer notes on challenges, surprises, Important achievements disclaimers/caveats etc</br>
            - A release license or copyright to the work</br>
 - Create a Wiki Page for the project. GitHub wiki pages are suggested [https://help.github.com/articles/adding-wiki-pages-via-the-online-interface/]. Include in the wiki a brief user guide and notes on accessibility of the application. Sections may include:</br>
