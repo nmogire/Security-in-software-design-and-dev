@@ -125,7 +125,7 @@ This section is concerned with the application coding and code documentation. Ad
 - README:</br>
            - In the README document created under step 5, under each component:</br>
                      -- Record what tasks are complete after each work period</br>
-                     -- Note what is pending at each working period</br>
+                     -- Note what is pending at the end of each working period</br>
                      -- Note what each project participant will be handling next</br>
 </p>
 </details>
