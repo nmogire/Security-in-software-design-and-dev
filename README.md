@@ -108,7 +108,7 @@ This section is concerned with defining the project course more specifically wit
            - Compile a comprehensive list of approved tools for the project. Example [https://msdn.microsoft.com/library/cc307395.aspx]. Include tool versions to account for differences between versions e.g. of the same compiler/IDE/etc.</br>
 - Deprecated/Unsafe Functions in Project Tools and their alternatives:</br>
            - Identify and list any relevant unsafe or deprecated functions specific to the approved tools. Specify a list of approved alternatives for the project as relevant.</br>
-- README Design:</br>
+- README Design: Create a text document 'README.txt' and in it,</br>
            - List the application components planned for development</br>
            - Specify the tasks involved in development under each component</br>
 </p>
@@ -117,15 +117,16 @@ This section is concerned with defining the project course more specifically wit
 <details><summary>6. Implementation</summary>
 <p> 
 This section is concerned with the application coding and code documentation. Add to the documentation an 'Implementation' section with these items:
-                   
+
+- Code: Write the code and,</br>
+           - Document the code process e.g. library decisions, what each section does, etc.. as you go</br>
+           - Document the features: requirements, what's implemented and how it works </br>
+                              
 - README:</br>
            - In the README document created under step 5, under each component:</br>
                      -- Record what tasks are complete after each work period</br>
                      -- Note what is pending at each working period</br>
                      -- Note what each project participant will be handling next</br>
-- Code: Write the code and,</br>
-           - Document the code process e.g. library decisions, what each section does, etc.. as you go</br>
-           - Document the features: requirements, what's implemented and how it works </br>
 </p>
 </details>
 
